@@ -9,10 +9,9 @@ import { HeroService } from './hero.service';
   selector: 'my-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
-  providers: [HeroService]
+  providers: []
 })
 export class HeroesComponent implements OnInit {
-  title: string = 'Tour of Heroes';
   heroes: Hero[];
   selectedHero: Hero;
 
