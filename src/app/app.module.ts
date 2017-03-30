@@ -8,6 +8,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './heroes/hero-detail/hero-detail.component';
 import { HeroService } from './heroes/hero.service';
 
+import { routes } from './routes';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { HeroService } from './heroes/hero.service';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routes
   ],
   providers: [
     HeroService
